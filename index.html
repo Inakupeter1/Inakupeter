@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Staff Appraisal Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>University Staff Appraisal Form</h1>
+        <form>
+            <fieldset>
+                <legend>Staff Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" required>
+                
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" required>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Performance Ratings</legend>
+                <label for="quality">Quality of Work:</label>
+                <select id="quality" name="quality">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+                
+                <label for="punctuality">Punctuality:</label>
+                <select id="punctuality" name="punctuality">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+                
+                <label for="teamwork">Teamwork:</label>
+                <select id="teamwork" name="teamwork">
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Comments</legend>
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </fieldset>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
